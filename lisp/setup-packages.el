@@ -1,3 +1,4 @@
+(require 'cl)
 (require 'package)
 
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
@@ -20,8 +21,16 @@
     cider
     multiple-cursors))
 
-(dolist (p my-packages)
-  (unless (package-installed-p p)
-    (package-install p)))
+(defun my-packages-installed-p ()
+  (every #'package-installed-p my-packages))
+
+(defun my-install-packages ()
+  (unless (my-packages-installed-p)
+    (package-refresh-contents)
+    (dolist (p my-packages)
+      (unless (package-installed-p p)
+        (package-install p)))))
+
+(my-install-packages)
 
 (provide 'setup-packages)
