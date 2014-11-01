@@ -10,6 +10,9 @@
 (when (fboundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
 
+;; Scroll one line at a time
+(setq scroll-conservatively 100000)
+
 ;; Disable blinking cursor
 (blink-cursor-mode -1)
 
