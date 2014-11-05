@@ -33,6 +33,9 @@
 ;; Disable annoying bell
 (setq ring-bell-function 'ignore)
 
+(require 'windmove)
+(windmove-default-keybindings)
+
 ;; Set theme
 (load-theme 'zenburn t)
 
