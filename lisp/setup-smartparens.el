@@ -27,6 +27,7 @@
 (define-key sp-keymap (kbd "C-M-k") 'sp-kill-sexp)
 (define-key sp-keymap (kbd "C-M-w") 'sp-copy-sexp)
 
+(define-key sp-keymap (kbd "C-M-y") 'sp-rewrap-sexp)
 (define-key sp-keymap (kbd "M-<delete>") 'sp-unwrap-sexp)
 (define-key sp-keymap (kbd "M-<backspace>") 'sp-backward-unwrap-sexp)
 
