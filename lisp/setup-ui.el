@@ -33,6 +33,9 @@
 ;; Disable annoying bell
 (setq ring-bell-function 'ignore)
 
+;; Highlight the current line
+(global-hl-line-mode +1)
+
 (require 'windmove)
 (windmove-default-keybindings)
 
