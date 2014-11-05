@@ -26,6 +26,10 @@
 ;; Don't open new files in new frames
 (setq ns-pop-up-frames nil)
 
+;; Don't use native fullscreen due to the annoying display switch
+;; animations
+(setq ns-use-native-fullscreen nil)
+
 ;; Disable annoying bell
 (setq ring-bell-function 'ignore)
 
