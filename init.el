@@ -22,4 +22,5 @@
 (require 'setup-smartparens)
 (require 'setup-company)
 (require 'setup-clojure)
+(require 'setup-python)
 (require 'setup-org)

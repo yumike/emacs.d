@@ -18,6 +18,9 @@
     smartparens
     clojure-mode
     cider
+    pyenv-mode
+    anaconda-mode
+    company-anaconda
     multiple-cursors))
 
 (defun my-packages-installed-p ()
