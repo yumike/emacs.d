@@ -6,6 +6,7 @@
 
 (defvar my-packages
   '(projectile
+    god-mode
     ace-jump-mode
     ack-and-a-half
     company
