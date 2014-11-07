@@ -16,6 +16,8 @@
 ;; Disable blinking cursor
 (blink-cursor-mode -1)
 
+(setq-default cursor-type 'bar)
+
 ;; Disable startup screen
 (setq inhibit-startup-screen t)
 
