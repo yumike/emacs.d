@@ -8,6 +8,7 @@
   '(projectile
     god-mode
     ace-jump-mode
+    ace-window
     ack-and-a-half
     company
     magit
