@@ -19,6 +19,7 @@
     smartparens
     clojure-mode
     cider
+    stylus-mode
     pyenv-mode
     anaconda-mode
     company-anaconda
