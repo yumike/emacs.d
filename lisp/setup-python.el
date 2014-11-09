@@ -1,3 +1,4 @@
+(require 'anaconda-mode)
 (require 'pyenv-mode)
 
 (pyenv-mode)
