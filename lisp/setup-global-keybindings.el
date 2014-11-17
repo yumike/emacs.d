@@ -5,6 +5,8 @@
 
 (global-set-key (kbd "s-<backspace>") 'backward-kill-word)
 
+(global-set-key (kbd "C-x _") 'maximize-window)
+
 (global-set-key (kbd "s-w") 'ace-window)
 (global-set-key (kbd "s-.") 'ace-jump-mode)
 
