@@ -61,4 +61,7 @@
 (sp-with-modes '(clojure-mode)
   (sp-local-pair "(" nil :bind "C-("))
 
+(sp-with-modes '(html-mode)
+  (sp-local-pair "<" ">"))
+
 (provide 'setup-smartparens)
