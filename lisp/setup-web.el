@@ -1,4 +1,7 @@
 (require 'web-mode)
+(require 'emmet-mode)
+
+(add-hook 'web-mode-hook 'emmet-mode)
 
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
 
