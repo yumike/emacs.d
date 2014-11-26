@@ -21,6 +21,7 @@
     clojure-mode
     cider
     stylus-mode
+    yaml-mode
     web-mode
     pyenv-mode
     anaconda-mode
