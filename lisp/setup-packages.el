@@ -26,6 +26,7 @@
     pyenv-mode
     anaconda-mode
     company-anaconda
+    emmet-mode
     multiple-cursors))
 
 (defun my-packages-installed-p ()
