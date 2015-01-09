@@ -26,3 +26,4 @@
 (require 'setup-python)
 (require 'setup-web)
 (require 'setup-org)
+(require 'setup-haskell)

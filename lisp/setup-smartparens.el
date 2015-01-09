@@ -8,6 +8,8 @@
       sp--lisp-modes)
 (add-hook 'clojure-mode-hook 'smartparens-strict-mode)
 
+(setq sp-ignore-modes-list '(haskell-mode))
+
 (define-key sp-keymap (kbd "C-M-f") 'sp-forward-sexp)
 (define-key sp-keymap (kbd "C-M-b") 'sp-backward-sexp)
 

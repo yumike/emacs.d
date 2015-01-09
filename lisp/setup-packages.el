@@ -27,6 +27,9 @@
     anaconda-mode
     company-anaconda
     emmet-mode
+    haskell-mode
+    ghc
+    company-ghc
     multiple-cursors))
 
 (defun my-packages-installed-p ()
