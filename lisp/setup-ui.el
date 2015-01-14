@@ -38,9 +38,6 @@
 ;; Highlight the current line
 (global-hl-line-mode +1)
 
-(require 'windmove)
-(windmove-default-keybindings)
-
 ;; Set theme
 (load-theme 'zenburn t)
 
