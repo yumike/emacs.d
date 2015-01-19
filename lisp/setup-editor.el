@@ -2,6 +2,8 @@
 (setq backup-directory-alist `((".*" . "~/.saves")))
 (setq auto-save-file-name-transforms `((".*" "~/.saves" t)))
 
+(setq default-input-method "cyrillic-jcuken")
+
 ;; Indentation
 (setq-default indent-tabs-mode nil)
 
