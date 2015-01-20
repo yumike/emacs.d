@@ -7,4 +7,6 @@
 ;; Enable company mode
 (global-company-mode +1)
 
+(define-key company-mode-map (kbd "C-<tab>") 'company-complete)
+
 (provide 'setup-company)
