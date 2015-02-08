@@ -11,8 +11,4 @@
 (require 'ediff)
 (setq ediff-window-setup-function 'ediff-setup-windows-plain)
 
-;; Projectile is a project management mode
-(require 'projectile)
-(projectile-global-mode t)
-
 (provide 'setup-editor)

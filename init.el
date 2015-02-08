@@ -17,6 +17,7 @@
 (require 'setup-global-keybindings)
 
 ;; Packages
+(require 'setup-projectile)
 (require 'setup-god)
 (require 'setup-multiple-cursors)
 (require 'setup-ido)
