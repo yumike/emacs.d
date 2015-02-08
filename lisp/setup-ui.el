@@ -42,7 +42,7 @@
 (load-theme 'zenburn t)
 
 ;; Font settings
-(set-face-attribute 'default nil :font "Ubuntu Mono-14")
-(set-frame-font "Ubuntu Mono-14" nil t)
+(set-face-attribute 'default nil :family "Consolas" :height 130)
+(set-frame-font "Consolas" nil t)
 
 (provide 'setup-ui)
