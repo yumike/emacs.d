@@ -9,7 +9,7 @@
     god-mode
     ace-jump-mode
     ace-window
-    ack-and-a-half
+    ag
     company
     magit
     ido-ubiquitous
