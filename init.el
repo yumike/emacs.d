@@ -27,3 +27,4 @@
 (require 'setup-web)
 (require 'setup-org)
 (require 'setup-haskell)
+(require 'setup-erlang)

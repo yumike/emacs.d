@@ -30,6 +30,7 @@
     haskell-mode
     ghc
     company-ghc
+    erlang
     multiple-cursors))
 
 (defun my-packages-installed-p ()
