@@ -1,3 +1,7 @@
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize)
+  (exec-path-from-shell-copy-env "GOPATH"))
+
 ;; Save here instead of littering current directory with emacs backup files
 (setq backup-directory-alist `((".*" . "~/.saves")))
 (setq auto-save-file-name-transforms `((".*" "~/.saves" t)))

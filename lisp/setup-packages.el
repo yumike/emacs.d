@@ -5,7 +5,8 @@
 (package-initialize)
 
 (defvar my-packages
-  '(projectile
+  '(exec-path-from-shell
+    projectile
     god-mode
     ace-jump-mode
     ace-window
