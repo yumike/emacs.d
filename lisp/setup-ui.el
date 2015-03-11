@@ -1,7 +1,3 @@
-;; Set gui window size
-(when window-system
-  (set-frame-size (selected-frame) 100 60))
-
 ;; Disable toolbar
 (when (fboundp 'tool-bar-mode)
   (tool-bar-mode -1))
