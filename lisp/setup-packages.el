@@ -29,6 +29,7 @@
     anaconda-mode
     company-anaconda
     emmet-mode
+    php-mode
     haskell-mode
     ghc
     company-ghc
