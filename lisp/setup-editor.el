@@ -15,4 +15,12 @@
 (require 'ediff)
 (setq ediff-window-setup-function 'ediff-setup-windows-plain)
 
+(defun insert-newline-above ()
+  (interactive)
+  (unless (bolp)
+    (beginning-of-line))
+  (newline)
+  (forward-line -1)
+  (indent-according-to-mode))
+
 (provide 'setup-editor)
