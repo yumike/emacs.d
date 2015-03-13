@@ -7,6 +7,7 @@
 (defvar my-packages
   '(exec-path-from-shell
     projectile
+    ztree
     god-mode
     ace-jump-mode
     ace-window
