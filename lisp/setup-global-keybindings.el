@@ -5,6 +5,7 @@
 (setq mac-option-modifier 'super)
 (setq mac-command-modifier 'meta)
 
+(global-set-key (kbd "C-c i") 'imenu)
 (global-set-key (kbd "s-<backspace>") 'backward-kill-word)
 
 (global-set-key (kbd "C-x _") 'maximize-window)
