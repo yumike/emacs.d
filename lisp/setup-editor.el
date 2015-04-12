@@ -8,6 +8,10 @@
 
 (setq default-input-method "cyrillic-jcuken")
 
+;; Show current line and column numbers
+(setq line-number-mode t)
+(setq column-number-mode t)
+
 ;; Indentation
 (setq-default indent-tabs-mode nil)
 
