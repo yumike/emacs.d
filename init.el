@@ -8,6 +8,7 @@
 (require 'setup-global-keybindings)
 
 ;; Packages
+(require 'setup-evil)
 (require 'setup-projectile)
 (require 'setup-god)
 (require 'setup-multiple-cursors)

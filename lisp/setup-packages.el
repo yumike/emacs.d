@@ -6,6 +6,7 @@
 
 (defvar my-packages
   '(exec-path-from-shell
+    evil
     projectile
     ztree
     god-mode
