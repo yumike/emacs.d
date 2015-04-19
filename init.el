@@ -8,6 +8,7 @@
 (require 'setup-global-keybindings)
 
 ;; Packages
+(require 'setup-diminish)
 (require 'setup-evil)
 (require 'setup-projectile)
 (require 'setup-god)
