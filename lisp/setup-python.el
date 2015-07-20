@@ -1,9 +1,12 @@
 (require 'anaconda-mode)
 (require 'pyenv-mode)
+(require 'flycheck)
 
 (defun my/python-mode-hook ()
   (anaconda-mode)
   (eldoc-mode)
+
+  (flycheck-select-checker 'python-pylint)
   (flycheck-mode)
 
   (with-eval-after-load 'evil
