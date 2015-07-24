@@ -12,6 +12,8 @@
     god-mode
     ace-jump-mode
     ace-window
+    diminish
+    flycheck
     ag
     company
     magit
