@@ -3,6 +3,9 @@
 (require 'flycheck)
 
 (defun my/python-mode-hook ()
+  ;; Hoghlight trailing whitespaces
+  (setq show-trailing-whitespace t)
+
   (anaconda-mode)
   (eldoc-mode)
 

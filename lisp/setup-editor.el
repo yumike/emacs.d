@@ -15,9 +15,6 @@
 ;; Indentation
 (setq-default indent-tabs-mode nil)
 
-;; Highlight trailing whitespaces
-(setq-default show-trailing-whitespace t)
-
 ;; Don't start another frame for ediff
 (require 'ediff)
 (setq ediff-window-setup-function 'ediff-setup-windows-plain)
